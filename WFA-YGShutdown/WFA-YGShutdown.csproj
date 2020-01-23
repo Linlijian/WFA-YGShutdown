@@ -114,6 +114,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="login_w_4jR_icon.ico" />
+    <Content Include="logo.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
