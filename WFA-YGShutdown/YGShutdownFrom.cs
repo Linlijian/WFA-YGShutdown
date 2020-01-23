@@ -56,7 +56,8 @@ namespace WFA_YGShutdown
                 btnStart.Text = "Start";
                 labelprocess.Text = "Stop !";
                 Stop();
-
+                t.Abort();
+                
                 isStart = true;
             }
         }
@@ -70,6 +71,8 @@ namespace WFA_YGShutdown
         }
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            Stop();
+            t.Abort();
             this.Close();
         }
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
