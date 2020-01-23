@@ -25,3 +25,5 @@
 ### :pray: Sponsor's who support us monthly :heart:
 - [Donate](https://uppic.cc/d/5DnQ) :heart:
   
+## Screenshots
+<img src="https://raw.githubusercontent.com/Linlijian/WFA-YGShutdown/master/Screenshots.png"/>
