@@ -41,24 +41,31 @@ namespace WFA_YGShutdown
         #region action
         private void btnStart_Click(object sender, EventArgs e)
         {
-            if (isStart)
+            try
             {
-                btnStart.Text = "Cancel";
-                labelprocess.Text = "Start !";
-                t = new System.Threading.Thread(Start);
-                t.Start();
+                if (isStart)
+                {
+                    btnStart.Text = "Cancel";
+                    labelprocess.Text = "Start !";
+                    t = new System.Threading.Thread(Start);
+                    t.Start();
 
-                isStart = false;
+                    isStart = false;
 
+                }
+                else
+                {
+                    btnStart.Text = "Start";
+                    labelprocess.Text = "Stop !";
+                    Stop();
+                    t.Abort();
+
+                    isStart = true;
+                }
             }
-            else
+            catch
             {
-                btnStart.Text = "Start";
-                labelprocess.Text = "Stop !";
-                Stop();
-                t.Abort();
-                
-                isStart = true;
+                MessageBox.Show("Time out plaese try again!", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         private void YGShutdownFrom_MouseDown(object sender, MouseEventArgs e)
