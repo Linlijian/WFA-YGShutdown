@@ -15,7 +15,7 @@
 - [Download](https://raw.githubusercontent.com/Linlijian/WFA-YGShutdown/master/WFA-YGShutdown/WFA-YGShutdown.rar)
 - Extract file (No password)
 - Double click WFA-YGShutdown.exe
-- Click Start.
+- Enjoin
 
 ## Process
   
