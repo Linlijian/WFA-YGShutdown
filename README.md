@@ -20,8 +20,12 @@
 ## Process
   
   This program check connect internet using [WebClient](https://docs.microsoft.com/en-us/dotnet/api/system.net.webclient?view=netframework-4.8) if no connect / no internet / wifi do close all process Yulgang and shutdown pc with CMD.
+  
   if cancel click button 'Cancel' to done!
   
 ### :pray: Sponsor's who support us monthly :heart:
 - [Donate](https://uppic.cc/d/5DnQ) :heart:
+
   
+## Screenshots
+<img src="https://raw.githubusercontent.com/Linlijian/WFA-YGShutdown/master/Screenshots.png"/>
