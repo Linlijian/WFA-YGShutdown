@@ -23,5 +23,5 @@
   if cancel click button 'Cancel' to done!
   
 ### :pray: Sponsor's who support us monthly :heart:
-    <a href="https://uppic.cc/d/5DnQ" target="_blank"><img src="https://camo.githubusercontent.com/c4bb08368f7cc382cc36f9c2dc5c1c5400f8776b/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6d6168617070736d6574726f2f74696572732f73706f6e736f722f302f617661746172"></a>
+    <a href="https://uppic.cc/d/5DnQ" target="_blank"><img src="https://camo.githubusercontent.com/c4bb08368f7cc382cc36f9c2dc5c1c5400f8776b/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f6d6168617070736d6574726f2f74696572732f73706f6e736f722f302f617661746172"></img></a>
   
