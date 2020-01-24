@@ -209,15 +209,15 @@ namespace WFA_YGShutdown
                 }
                 else
                 {
-                    MessageBox.Show(@"There is no update available please try again later.", @"No update available",
-                        MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    //MessageBox.Show(@"There is no update available please try again later.", @"No update available",
+                    //    MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             else
             {
-                MessageBox.Show(
-                        @"There is a problem reaching update server please check your internet connection and try again later.",
-                        @"Update check failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //MessageBox.Show(
+                //        @"There is a problem reaching update server please check your internet connection and try again later.",
+                //        @"Update check failed", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
         #endregion
