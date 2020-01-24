@@ -8,6 +8,7 @@ using System.Linq;
 using System.Net;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -17,7 +18,7 @@ namespace WFA_YGShutdown
     {
         #region values
         bool isStart = true;
-        System.Threading.Thread t;
+        Thread t;
 
         //const and dll functions for moving form
         public const int WM_NCLBUTTONDOWN = 0xA1;
@@ -47,7 +48,7 @@ namespace WFA_YGShutdown
                 {
                     btnStart.Text = "Cancel";
                     labelprocess.Text = "Start !";
-                    t = new System.Threading.Thread(Start);
+                    t = new Thread(Start);
                     t.Start();
 
                     isStart = false;
@@ -125,7 +126,12 @@ namespace WFA_YGShutdown
                     Shutdown();
                     break;
                 }
+                WaitSomeTime();
             };
+        }
+        public async void WaitSomeTime()
+        {
+            await Task.Delay(5000); //wait 5sc
         }
         private void Shutdown()
         {
