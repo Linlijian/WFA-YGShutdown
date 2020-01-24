@@ -106,6 +106,7 @@
             this.MinimizeBox = false;
             this.Name = "YGShutdownFrom";
             this.Text = "YGShutdownFrom";
+            this.Load += new System.EventHandler(this.YGShutdownFrom_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.YGShutdownFrom_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
