@@ -12,7 +12,7 @@
    </div>
    
 ## Let's get started
-- [Download](https://raw.githubusercontent.com/Linlijian/WFA-YGShutdown/master/WFA-YGShutdown/WFA-YGShutdown.rar)
+- [Download](https://raw.githubusercontent.com/Linlijian/WFA-YGShutdown/master/WFA-YGShutdown/WFA-YGShutdown.zip)
 - Extract file (No password)
 - Double click WFA-YGShutdown.exe
 - Enjoin
