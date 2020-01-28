@@ -110,6 +110,18 @@ namespace WFA_YGShutdown
         #endregion
 
         #region method
+        private void destroy()
+        {
+            try
+            {
+                t.Abort();
+                this.Close();
+            }
+            catch
+            {
+                this.Close();
+            }
+        }
         public static bool CheckForInternetConnection()
         {
             try
@@ -150,6 +162,8 @@ namespace WFA_YGShutdown
             {
                 p.WaitForExit();
             }
+
+            destroy();
         }
         private void Stop()
         {
